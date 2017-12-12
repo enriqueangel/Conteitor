@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.ronald.conteitor.InscripcionFalseConexion">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No hay conexion a internet, por favor verifique la conexion y vuelva a intentar."
+
+            android:textSize="25sp"
+            android:textColor="?attr/actionMenuTextColor"
+            android:padding="10dp"
+            android:id="@+id/textView5"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reintentar"
+            android:id="@+id/buttonReintInscrip"
+
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

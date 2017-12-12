@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inscripcion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ronald.conteitor.Inscripcion">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+
+        android:textSize="25sp"
+        android:textColor="?attr/actionMenuTextColor"
+        android:layout_weight="2"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la siguiente informacion"
+
+        android:textSize="25sp"
+        android:textColor="?attr/actionMenuTextColor"
+        android:layout_weight="2"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextNombres"
+        android:hint="Ingrese sus Nombres"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:theme = "@style/CampoTextoRojo"
+
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextApellidos"
+        android:hint="Ingrese sus Apellidos"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:theme = "@style/CampoTextoRojo"
+
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextCorreoregistrer"
+        android:hint="Ingrese su Correo"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:theme = "@style/CampoTextoRojo"
+
+
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="50"
+        android:id="@+id/ContenedorInscripcion"></FrameLayout>
+
+</LinearLayout>

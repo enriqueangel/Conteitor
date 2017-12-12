@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+
+
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:src = "@drawable/logo_ecards"
+        android:id="@+id/Logo"
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextCorreo"
+        android:hint="USUARIO"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:theme = "@style/CampoTextoRojo"
+
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/editTextContraseña"
+        android:hint="CONTRASEÑA"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:theme = "@style/CampoTextoRojo"
+
+
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextContraseña"
+        android:layout_weight="50"
+        android:id="@+id/Contenedor"></FrameLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
